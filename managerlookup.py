@@ -1,4 +1,4 @@
-class Employee
+class Employee:
     manager = {"Marketing": "Peter", "MIS": "Cleo", "Finance": "Cindy"}
     def __init__(self, name, group, username):
         self.name = name
